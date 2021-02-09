@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>index</title>
+    <style>
+        nav {
+            background-color:rgb(0, 170, 71);
+            color: white;
+            font-size: 1rem;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0px 25px;
+        }
+        nav a {
+            color: white;
+            float: left;
+        }
+        nav a:hover {
+            color: green;
+            text-decoration: none;
+        }
+        a {
+            color: white;
+        }
+        a:hover {
+            text-decoration: none;
+            color: rgb(87, 255, 157);
+        }
+        .bg {
+            background-image: url('images/restaurant.jpeg');
+            background-size: cover;
+            opacity: 1;
+            color: white;
+            font-weight: 700;
+            font-size: 1rem;
+            height: 100vh;
+            width: 100vw;
+        }
+        .bg p {
+            font-size: 1.3rem;
+        }
+        .logo {
+            max-height: 400px;
+            margin: 0 auto;
+            margin-top: 5vh;
+        }
+        .button {
+            border: 2px solid white;
+            width: 200px;
+            margin: 2vh auto;
+        }
+        .button:hover {
+            cursor: pointer;
+            color: rgb(0, 255, 0);
+            border: 2px solid rgb(0, 255, 0);
+        }
+        .tagline {
+            font-size: 5rem;
+            font-weight: 800;
+            margin-top: 10vh;
+            margin: 5vh auto 0 auto;
+            color: rgb(0, 170, 71);
+            width: 50%;
+            padding: 15px;
+            border-radius: 25px;
+        }
+        .blurb {
+            color: rgb(0, 170, 71);
+            font-weight: 700;
+            padding: 0px 100px;
+        }
+        .imgs {
+            max-width: 50%;
+            margin-bottom: 5vh;
+        }
+        .footer {
+            background-color: rgb(0, 170, 71);
+            color: white;
+            margin: 0 auto;
+            height: 300px;
+            border-radius: 0%;
+        }
+        i {
+            color: white;
+            margin: 0 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md">
+        <a class="navbar-brand" href="#">Ray's Restaurant</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+       <div class="collapse navbar-collapse" id="collapsibleNavbar">
+           <ul class="navbar-nav">
+             <li class="nav-item">
+               <a class="nav-link" href="##">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Menu</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Location</a>
+             </li>    
+           </ul>
+         </div>  
+       </nav>
+    <div class="container-fluid text-center justify-content-center bg">
+        <div class="header">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <h1 class="logo">THE RESTAURANT</h1>
+            <p>We love Food!</p>
+            <p>We have created a fictional restaurant website. Lorem ipsum...</p>
+            <div class="button"><span>See Menu</span></div>
+            <div class="button"><span>Reservations</span></div>
+        </div>
+    </div>
+    <div class="container-fluid text-center justify-content-center">
+        <div class="tagline">
+            <span>Our Story</span>
+        </div>
+        <hr>
+
+        <br>
+        <img src="images/restaurant.jpg" alt="" class="imgs"> 
+        <br>
+        <p class="blurb">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptates vitae libero voluptate adipisci dicta odio itaque sed, eum dolorem soluta cumque reiciendis tempora dolores iste quis eius autem. Veniam quasi facilis quisquam vero fugiat atque consequatur nemo at voluptate! Dicta numquam voluptates eaque, nam voluptatem nihil odio est quae officia pariatur cupiditate iure. Deleniti praesentium quae ipsa velit, minima officia modi exercitationem numquam! Placeat, vitae? Itaque eum quod id, quas dicta dolore veritatis enim harum excepturi, iure ut quasi sint dolorem officia quam explicabo! Ad laudantium maiores odit vitae?</p>
+    </div>
+    <div class="jumbotron footer text-center justify-content-center">
+        <p>8250 Oak Valley Lane, Worcester, MA 01604 (Address is fake)</p>
+        <p>Website developed and designed by <a href="instagram.com/omg.ray">@omg.ray </a>on instagram. Follow for more web design content!</p>
+        <p>Copyright &copy; omgray.co / All rights reserved.</p>
+        <a href=""><i class="fa fa-github fa-3x"></i></a>
+        <a href=""><i class="fa fa-instagram fa-3x"></i></a>
+        <a href=""><i class="fa fa-twitter fa-3x"></i></a>
+        <a href=""><i class="fa fa-wordpress fa-3x"></i></a>
+        <a href=""><i class="fa fa-snapchat fa-3x"></i></a>
+
+    </div>
+</body>
+</html>
